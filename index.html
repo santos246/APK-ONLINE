@@ -48,16 +48,16 @@ body {margin:0;}
 <div class="navbar">
 
 <a href="index.html">INÍCIO</a>
-<a href="VIDEOS/1 - Copia.html">VÍDEOS</a>
-<a href="IMAGENS/1 - Copia.html">IMAGENS</a>
-<a href="AUDIOS/1 - Copia.html">AUDIOS</a>
+<a href="VIDEO/1 - Copia.html">VÍDEO</a>
+<a href="IMAGEM/1 - Copia.html">IMAGEM</a>
+<a href="AUDIO/1 - Copia.html">AUDIO</a>
 <a href="DOC/1 - Copia.html">DOC</a>
 
 
 </div>
 <div class="main">
 <br/>
-<!------------------------------------------------------------>
+<!-----------------------------
 <!DOCTYPE html>
 <html>
 <head>
@@ -83,7 +83,7 @@ div.scrollmenu a:hover {
 <body>
 <div class="scrollmenu">
 
-<a href="CATEGORIA/1 - Copia.html"><b><FONT SIZE=+1>🡸&#9776;</FONT></b></a>
+<a href="CATEGORIA/1 - Copia.html"><b><FONT SIZE=+1>&#9776;</FONT></b></a>
 <a href="CATEGORIA/1 - Copia.html">CATEGORIA</a>
 <a href="CATEGORIA/1 - Copia.html">CATEGORIA</a>
 
@@ -91,7 +91,7 @@ div.scrollmenu a:hover {
 </div>
 </body>
 </html>
-<!------------------------------------------------------------>
+---------------------------------> 
 <!DOCTYPE html>
 <html>
 <title>W3.CSS</title>
@@ -104,8 +104,74 @@ div.scrollmenu a:hover {
 
 <div class="w3-panel w3-yellow">
 <h1><b>APK ONLINE</b></h1>
+<!------------------------------------------------------>  
+<HR/><FONT COLOR="RED">
+<html>
+<head>
+<title></title>
+</head>
+<body>
+<SCRIPT LANGUAGE="JAVASCRIPT">
+<!--
+var now = new Date();
+var mName = now.getMonth() +1 ;
+var dName = now.getDay() +1;
+var dayNr = now.getDate();
+var yearNr=now.getYear();
+if(dName==1) {Day = "Domingo";}
+if(dName==2) {Day = "Segunda-feira";}
+if(dName==3) {Day = "Terça-feira";}
+if(dName==4) {Day = "Quarta-feira";}
+if(dName==5) {Day = "Quinta-feira";}
+if(dName==6) {Day = "Sexta-feira";}
+if(dName==7) {Day = "Sábado";}
+if(mName==1){Month = "Janeiro";}
+if(mName==2){Month = "Fevereiro";}
+if(mName==3){Month = "Março";}
+if(mName==4){Month = "Abril";}
+if(mName==5){Month = "Maio";}
+if(mName==6){Month = "Junho";}
+if(mName==7){Month = "Julho";}
+if(mName==8){Month = "Agosto";}
+if(mName==9){Month = "Setembro";}
+if(mName==10){Month = "Outubro";}
+if(mName==11){Month = "Novembro";}
+if(mName==12){Month = "Dezembro";}
+if(yearNr < 2000) {Year = 1900 + yearNr;}
+else {Year = yearNr;}
+var todaysDate =(" " + Day + ", " + dayNr + "/" + Month + "/" + Year);
+document.write('  '+todaysDate);
+//-->
+</SCRIPT>
+<SPAN ID="Clock">00:00:00</SPAN>
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+  var Elem = document.getElementById("Clock");
+  function Horario(){ 
+    var Hoje = new Date(); 
+    var Horas = Hoje.getHours(); 
+    if(Horas < 10){ 
+      Horas = "0"+Horas; 
+    } 
+    var Minutos = Hoje.getMinutes(); 
+    if(Minutos < 10){ 
+      Minutos = "0"+Minutos; 
+    } 
+    var Segundos = Hoje.getSeconds(); 
+    if(Segundos < 10){ 
+      Segundos = "0"+Segundos; 
+    } 
+    Elem.innerHTML = Horas+":"+Minutos+":"+Segundos; 
+    } 
+    window.setInterval("Horario()",1000);
+//-->
+</SCRIPT>
+</body>
+</html>
+</FONT><HR/>
+<!------------------------------------------------------>
 <h2>BEM VINDO</h2>
-<p>Aui vc vai encontrar todo tipo de conteúdo incrusivel <b>adulto</b>, lembrando que tudo e on-line, sempre precisando de internet para ver os vodeos, obg</p>
+<p>Aqui vc vai encontrar todo tipo de conteúdo incrusive <b>adulto</b>, lembrando que tudo e on-line, sempre precisando de internet para ver os videos, obg</p>
 
 
 
@@ -113,6 +179,24 @@ div.scrollmenu a:hover {
 
 
 <!---------------------------------------------------------->
+<!DOCTYPE html>
+<html>
+<title>W3.CSS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<body>
+
+<div class="w3-container">
+
+<img src="https://www.educacaofisica.ufscar.br/graduacao/bacharelado/gif-atencao-animado/image" width="300">
+  <h2><b>AVISO<br/>CONTÉM CENAS DE SEXO PROIBIDO PARA MENORES DE 18 ANOS</b></h2>
+  <span class="w3-tag w3-spin w3-large">
+  STOP<br/>CONTÉM CENAS DE SEXO <br/>PROIBIDO PARA MENORES<br/> DE 18 ANOS
+  </span>
+</div>
+
+</body>
+</html> 
 
 
 
@@ -128,9 +212,44 @@ div.scrollmenu a:hover {
 
 <!---------------------------------------------------------->
 
-<!---------------------------------------------------------->
+<!-----------------------------
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.pagination {
+  display: inline-block;
+}
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+  border: 5px solid #000000;
+  font-size: 22px;
+}
+.pagination a.active {
+  background-color: #3ADF00;
+  color: white;
+  border: 5px solid #DF0101;
+}
+.pagination a:hover:not(.active) {background-color: #3ADF00;}
+</style>
+</head>
+<body>
+<div class="pagination">
 
-<!---------------------------------------------------------->
+
+  <a href="1 - Copia.html" class="active">1</a>
+  <a href="1 - Copia (2).html">2</a>
+  <a href="1 - Copia (3).html">3</a>
+
+
+</div>
+</body>
+</html>
+---------------------------------->
 <a href="#top"><H3>VOLTAR AO TOPO</H3></a>
 <!-------------------------WHATZAPP--------------------------------->
 <style> #imagem_whats{position:fixed;right:0;bottom:0;display:block;cursor:pointer;z-index:9999999;float:right} #imagem_whats2{position:fixed;right:0;bottom:0;display:block;cursor:pointer;z-index:9999999;float:right;display:none} @media only screen and (max-width: 999px) and (min-width: 100px){#imagem_whats{display:none}#imagem_whats2{display:block}}</style><img id="imagem_whats" src="https://www.ellodigital.com.br/images/whatsapp.png" onClick="window.open('https://web.whatsapp.com/send?phone=+5585988885153&amp;text=Olá!❤️ GOSTEI DE SEU SITE E GOSTARIA DE DIZER QUE ...', '_blank');"><img id="imagem_whats2" src="https://www.ellodigital.com.br/images/whatsapp.png" onClick="window.open('https://api.whatsapp.com/send?phone=+556200000000&amp;text=Olá!SANTOS, QUERIA FALAR QUE...', '_blank');"><div class="preloader"> <div class="preloaderimg"></div></div>
